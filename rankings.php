@@ -40,7 +40,7 @@
 			</tr>
 			<ol>
 <?php
-				$con = mysql_connect ("localhost","jack_iccup","1<3eP1eWHNZ");
+				$con = mysql_connect (SEKRIT INFO);
 				//mysql_query($con);
 				if (!$con) { die('Could not connect: ' . mysql_error());   }
 
