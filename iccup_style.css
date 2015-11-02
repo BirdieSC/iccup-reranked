@@ -1,0 +1,429 @@
+body {
+	background-image:url(images/TS2.gif);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	-webkit-background-size: cover; /*for webKit*/
+        -moz-background-size: cover; /*Mozilla*/
+        -o-background-size: cover; /*opera*/
+        background-size: cover; /*generic*/
+	color: #e3bc67;
+	font-family: Arial, Helvetica, sans-serif, Verdana;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+}
+* {margin: 0px;padding: 0px;}
+.clear{clear:both;}
+#container {
+	margin: 0px auto;
+	text-align: left;
+	width: 1300px;
+}
+a {
+	color: #ffffff;
+	font-family: Arial, Helvetica, sans-serif, Verdana;
+	font-size: 12px;
+}
+/********************** Login Bar ***************************/
+#login {
+	margin: 0px 0px 0px 0px;
+	color:#e3bc67;
+	width:150px;
+	height:30px;
+	right:0px;
+	background-image:url(images/main_bg.png);
+	background-repeat: repeat-y;
+	display:block;
+	text-align: center;
+	padding:7px 7px 0px 7px;
+	position:fixed;
+}	
+/********************** Header ***************************/
+#header {
+	margin: 0px 0px 0px 0px;
+	background-image:url(iccup_SiteLogo.png);
+	background-repeat:no-repeat;
+	width:1300px;
+	height:300px;
+}
+#menu {
+	position:relative;
+	background-image:url(images/menu.jpg);
+	background-repeat:no-repeat;
+	width:1300px;
+	height:117px;
+}
+#menu ul{
+	position:absolute;
+	top:30px;
+	left:15px;
+}
+#menu li{
+	float:left;
+	display:inline;
+	padding: 0px 0px 0px 10px;
+}
+#menu a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#menu a:hover{
+	color:#000000;
+}
+h1,h2,h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	color: #e7c58f;
+}
+h1,h2 {
+	position:absolute;
+	top:94px;
+}
+h1 {
+	left:10px;
+}
+h2 {
+	right:75px;
+}
+h3 {
+	margin: 15px 0px 0px 10px;
+	border-bottom: solid 1px #e7c58f;
+}
+h4 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #e7c58f;
+	margin: 15px 0px 0px 10px;
+}
+/********************** Main ***************************/
+#main {
+	background-image:url(images/main_bg.png);
+	background-repeat: repeat-y;
+	display:block;
+	width:1300px;
+	height:auto;
+}
+#content {
+	background-image:url(images//main_bg.gif);
+	background-repeat: repeat-y;
+	width:1300px;
+}
+/************************** TABLE *************************/
+#rankings
+{
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+width:98%;
+border-collapse:collapse;
+float:right;
+}
+#rankings td, #rankings th 
+{
+font-size:1em;
+border:1px solid #EDA726;
+padding:3px 7px 2px 7px;
+}
+#rankings th 
+{
+font-size:1.1em;
+text-align:left;
+padding-top:5px;
+padding-bottom:4px;
+background-color:#EDA726;
+color:#ffffff;
+}
+#rankings tr.alt td 
+{
+color:#000000;
+background-color:#EAF2D3;
+}
+/********************** Left - Text ***************************/
+#left {
+	float:left;
+	width:1008px;
+}
+#left p{
+	padding: 5px 10px 10px 15px;
+}
+#left div{
+	padding: 5px 10px 10px 15px;
+}
+
+#left tr{
+	padding: 5px 10px 10px 15px;
+}
+#left th{
+	padding: 5px 10px 10px 15px;
+}
+#left td{
+	padding: 5px 10px 10px 15px;
+}
+#left a:hover{color:#ffffff;}
+
+#left input[type=text] {
+	font-family: Arial, Sans-Serif;
+	font-size: 13px;
+	margin-bottom: 5px;
+	display: block;
+	padding: 4px;
+	width: 120px;
+	border: solid 1px #85b1de;
+}
+#left input[type=text]:hover {
+	background:#e7c58f;
+}
+#left input[type=text]:focus {
+	background:#F9F9F9;
+	border: solid 1px #373737;
+}
+#left input[type=password] {
+	background:#F9F9F9;
+	font-family: Arial, Sans-Serif;
+	font-size: 13px;
+	margin-bottom: 5px;
+	display: block;
+	padding: 4px;
+	width: 120px;
+	border: solid 1px #85b1de;
+}
+#left input[type=password]:focus {
+	background:#F9F9F9;
+	border: solid 1px #373737;
+}
+#left input[type=password]:hover {
+	background:#e7c58f;
+}
+#left textarea {
+	border: solid 1px #D6D1D1;
+	padding: 3px;
+	font-size: 11px;
+	color: #2a2e2c;
+	background-color: #fff;
+}
+textarea:hover {
+	background:#F0F0F0;
+}
+textarea:focus {
+	background:#F8F6F6;
+}
+/********************** Left - Forum Categories ***************************/
+#forum {
+	float:left;
+	width:1008px;
+}
+#forum p{
+	padding: 5px 10px 10px 15px;
+}
+#forum div{
+	padding: 5px 10px 10px 15px;
+}
+
+#forum tr{
+	padding: 5px 10px 10px 15px;
+}
+#forum th{
+	padding: 5px 10px 10px 15px;
+}
+#forum td{
+	padding: 5px 10px 10px 15px;
+}
+hr.faded {
+  clear: both; 
+  float: none; 
+  width: 100%; 
+  height: 1px;
+	margin-bottom:5px;
+	margin-top:5px;
+	margin-left:5px;
+	margin-right:5px;
+  border: none; 
+  background: #e7c58f;
+} 
+#forum a:link {text-decoration:none;}
+#forum a:visited {text-decoration:none;}
+#forum a:hover {text-decoration:underline;}
+#forum a:active {text-decoration:underline;}
+a.category{
+	font-size: 24px;
+	margin-bottom:5px;
+	margin-top:5px;
+	margin-left:5px;
+	margin-right:5px;
+	color:#e7c58f;
+	}
+a.topics{
+	font-size: 18px;
+	margin-bottom:5px;
+	margin-top:5px;
+	margin-left:10px;
+	margin-right:5px;
+	color:#e7c58f;
+	}
+a.buttons{
+	font-size: 16px;
+	margin-bottom:5px;
+	margin-top:5px;
+	margin-left:10px;
+	margin-right:5px;
+	color:#e7c58f;
+	float:right;
+	}
+#forum a:hover{color:#ffffff;
+
+}
+
+#forum input[type=text] {
+	font-family: Arial, Sans-Serif;
+	font-size: 13px;
+	margin-bottom: 5px;
+	display: block;
+	padding: 4px;
+	width: 120px;
+	border: solid 1px #85b1de;
+}
+#forum input[type=text]:hover {
+	background:#e7c58f;
+}
+#forum input[type=text]:focus {
+	background:#F9F9F9;
+	border: solid 1px #373737;
+}
+#forum input[type=password] {
+	background:#F9F9F9;
+	font-family: Arial, Sans-Serif;
+	font-size: 13px;
+	margin-bottom: 5px;
+	display: block;
+	padding: 4px;
+	width: 120px;
+	border: solid 1px #85b1de;
+}
+#forum input[type=password]:focus {
+	background:#F9F9F9;
+	border: solid 1px #373737;
+}
+#forum input[type=password]:hover {
+	background:#e7c58f;
+}
+#forum textarea {
+	border: solid 1px #D6D1D1;
+	padding: 3px;
+	font-size: 11px;
+	color: #2a2e2c;
+	background-color: #fff;
+}
+textarea:hover {
+	background:#F0F0F0;
+}
+textarea:focus {
+	background:#F8F6F6;
+}
+/********************** Right - Team ***************************/
+.right{
+	float:right;
+	right:200px;
+}
+.member {
+	display:inline;
+	float:left;
+	margin-left:10px;
+}
+.member a{
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.member img{
+	border: none 0px;
+}
+.member span{
+	display:block;
+	text-align:center;
+	padding: 2px 500px 13px 0px;
+
+}
+.member span a{}
+.member span a:hover{}
+/********************** Posts ***************************/
+.user{
+float:left;
+margin-left:10px;
+font-size:18px;
+text-align:center;
+height: 150px;
+width: 150px;
+border-top: 1px solid #e7c58f;
+border-right: 1px solid #e7c58f;
+border-bottom: 1px solid #e7c58f;
+}
+.title{
+font-size:14px;
+text-align:center;
+}
+.body{
+font-size:16px;
+margin-left:10px;
+margin-bottom:10px;
+float: left;
+border-top: 1px solid #e7c58f;
+border-left: 1px solid #e7c58f;
+border-right: 1px solid #e7c58f;
+border-bottom: 1px solid #e7c58f;
+min-width:785px;
+max-width: 785px;
+min-height:150px;
+}
+.input{
+margin-top:10px;
+margin-left:180px; 
+bottom:0;
+}
+/********************** Footer ***************************/
+#footer {
+	background-image:url(images/footer_bg.png);
+	background-repeat:no-repeat;
+	width:1300px;
+	height:97px;
+	text-align:center;
+	float:center;
+	clear:both;
+	position:relative;
+	
+}
+#footer ul{
+
+}
+#footer li{
+	display:inline;
+	float:none;
+	text-align:center;
+	padding: 0px 10px 0px 10px;
+	border-right: solid 1px #908a68;
+}
+.lastchild{
+	border-right: 0px none !important;
+}
+#footer a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform:uppercase;
+	color: #BEB9B9;
+	text-decoration: none;
+}
+#footer a:hover{text-decoration: underline;}
+#footer span{
+	font-size: 9px;
+	font-weight: bold;
+	color: #18160e;
+	margin:10px;
+	display:block;
+}
